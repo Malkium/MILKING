@@ -12,7 +12,7 @@ factorial() {
 
 while true
 do
-	let i=i+1000
+	let i=i+1
 	result=$(factorial $i)
 	echo -e "$i"
 	echo -e "$result"
